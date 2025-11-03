@@ -1,0 +1,37 @@
+{
+  "order_id": "ORD-1001",
+  "customer_id": "CUS-001",
+  "order_date": "2025-02-10",
+  "status": "shipped",
+  "total_amount": 120.50,
+  "currency": "USD",
+  "items": [
+    {
+      "product_id": "PROD-123",
+      "name": "Laptop Stand",
+      "quantity": 1,
+      "unit_price": 45.00
+    },
+    {
+      "product_id": "PROD-456",
+      "name": "Wireless Mouse",
+      "quantity": 2,
+      "unit_price": 37.75
+    }
+  ],
+  "shipping": {
+    "address": "123 Market Street, San Francisco, CA",
+    "method": "FedEx Express",
+    "tracking_number": "FDX1234567890"
+  },
+  "payment": {
+    "method": "credit_card",
+    "transaction_id": "TXN-87654321",
+    "status": "paid"
+  },
+  "metadata": {
+    "created_at": "2025-02-10T14:30:00Z",
+    "updated_at": "2025-02-11T09:15:00Z",
+    "source": "mockdata"
+  }
+}
